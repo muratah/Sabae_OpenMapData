@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>鯖江市のオープンデータマップ by muratah</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/main.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+
+      <header>
+        <h1>鯖江市のオープンデータマップ</h1>
+        <p>鯖江市のオープンデータ地図情報を多目的に使いやすく整理、改変したファイルを再配布しています。</p>
+      </header>
+
+      <div id="banner">
+        <span id="logo"></span>
+
+        <a href="https://github.com/muratah/Sabae_OpenMapData" class="button fork"><strong>View On GitHub</strong></a>
+        <div class="downloads">
+          <span>Downloads:</span>
+          <ul>
+            <li><a href="https://github.com/muratah/Sabae_OpenMapData/zipball/master" class="button">ZIP</a></li>
+            <li><a href="https://github.com/muratah/Sabae_OpenMapData/tarball/master" class="button">TAR</a></li>
+          </ul>
+        </div>
+      </div><!-- end banner -->
+
+    <div class="wrapper">
+      <nav>
+        <ul></ul>
+      </nav>
+      <section>
+        <h1>
+<a name="sabae_openmapdata" class="anchor" href="#sabae_openmapdata"><span class="octicon octicon-link"></span></a>Sabae_OpenMapData</h1>
+
+<p>鯖江市のオープンデータ地図情報を多目的に使いやすく整理、改変したファイルを再配布しています。
+鯖江市ご提供の地図情報を分類コードごとにSHP形式、GeoJSON形式、及び.osm形式のデータにしました。</p>
+
+<p>同時に、オープンストリートマップへのインポートを現在準備中です。
+詳細作業については以下のwikiページに整理しています。
+<a href="http://wiki.openstreetmap.org/wiki/Sabae">http://wiki.openstreetmap.org/wiki/Sabae</a></p>
+
+<h2>
+<a name="%E9%AF%96%E6%B1%9F%E5%B8%82%E5%9F%9F%E5%9C%B0%E5%9B%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6" class="anchor" href="#%E9%AF%96%E6%B1%9F%E5%B8%82%E5%9F%9F%E5%9C%B0%E5%9B%B3%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6"><span class="octicon octicon-link"></span></a>鯖江市域地図データに関して</h2>
+
+<p><a href="http://www.city.sabae.fukui.jp/pageview.html?id=13892">鯖江市の地図情報（shape）</a></p>
+
+<ul>
+<li><p>縮尺： 1/2500</p></li>
+<li><p>空間参照系： JGD2000/平面直角座標系6系(EPSG:2448)</p></li>
+<li><p>データ作成年： 2008年</p></li>
+</ul><p>注意
+　本地図情報は、都市計画関連業務のために作成されたものですが、公共測量等の高度な精度が要求される測量、各種証明等には使用することができません。また、利用者の利用目的に適合しているとは限りませんので、利用者は自らの責任でご自身の利用目的に適合しているかどうかをご判断ください。</p>
+
+<h2>
+<a name="%E6%8F%90%E4%BE%9B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6" class="anchor" href="#%E6%8F%90%E4%BE%9B%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88%E3%81%AB%E9%96%A2%E3%81%97%E3%81%A6"><span class="octicon octicon-link"></span></a>提供データ・セットに関して</h2>
+
+<p>鯖江市のオープンデータ地図情報を多目的に使いやすく整理、改変したファイルを再配布しています。
+  鯖江市ご提供の地図情報を分類コードごとに<strong>SHP形式</strong>、<strong>GeoJSON形式</strong>、及び<strong>.osm形式</strong>のデータにしました。</p>
+
+<h3>
+<a name="csv%E3%83%87%E3%83%BC%E3%82%BF%E3%83%AA%E3%82%B9%E3%83%88" class="anchor" href="#csv%E3%83%87%E3%83%BC%E3%82%BF%E3%83%AA%E3%82%B9%E3%83%88"><span class="octicon octicon-link"></span></a>CSVデータリスト</h3>
+
+<ul>
+<li>Sabae_DataList.csvにどんなデータがあるかをリストにまとめました。</li>
+<li>CSVデータはEXCELで作成し、エンコードはShift-JISで保存されています。</li>
+</ul><h3>
+<a name="shp%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88" class="anchor" href="#shp%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88"><span class="octicon octicon-link"></span></a>SHPファイルのデータ・セット</h3>
+
+<ul>
+<li>SabaeClassifiedDataSet_AsSHP.7zにSHPファイル形式のデータ・セットをまとめています。</li>
+<li>分類コードごとにSHPファイルを作成しています。</li>
+<li>また、SHPファイル作成にあたり、元データの属性テーブルを大幅に加工しています。</li>
+<li>各SHPファイルのエンコードはShift-JISで保存されています。</li>
+<li>SHP形式のファイルを7z形式でまとめています。</li>
+</ul><h3>
+<a name="geojson%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88" class="anchor" href="#geojson%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88"><span class="octicon octicon-link"></span></a>GeoJSONのデータ・セット</h3>
+
+<ul>
+<li>SabaeClassifiedDataSet_AsGeoJSONのフォルダにGeoJSON形式のデータ・セットをまとめています。</li>
+<li>SHPファイルからogr2ogrを用いてGeoJSON形式に変換しました。</li>
+<li>座標系は EPSG:2448 → EPSG:4326 に変換しました。</li>
+<li>
+<a href="http://geojsonlint.com/">GeoJSONLint</a>での地図上での動作確認済み</li>
+<li>
+<a href="http://jeffpaine.github.io/geojson-topojson/">GeoJSON -&gt; TopoJSON</a>での動作確認済み</li>
+<li>7102_Lineに関しては100MBを超えるため、7z形式に圧縮してGitHubへアップロードしてます。</li>
+</ul><h3>
+<a name="osm%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88" class="anchor" href="#osm%E3%81%AE%E3%83%87%E3%83%BC%E3%82%BF%E3%82%BB%E3%83%83%E3%83%88"><span class="octicon octicon-link"></span></a>.osmのデータ・セット</h3>
+
+<ul>
+<li>SabaeClassifiedDataSet_AsOSMのフォルダに.osm形式のデータ・セットにまとめています。</li>
+<li>shpのデータ・セットよりogr2osmを用いて.osmにデータ変換しています。</li>
+<li>7101_Line.osm及び7102_Line.osmに関しては50MBを超えるため、7z形式に圧縮してGitHubへアップロードしています。</li>
+</ul><h2>
+<a name="%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9" class="anchor" href="#%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9"><span class="octicon octicon-link"></span></a>ライセンス</h2>
+
+<p>(c)Sabae city, CC BY 
+ライセンスは、Creative Commonsの「表示」（CC BY）としています。</p>
+      </section>
+      <footer>
+        <p>Project maintained by <a href="https://github.com/muratah">muratah</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
